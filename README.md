@@ -11,7 +11,7 @@ The purpose of the program is to simulate uploading text file and image to serve
 5. For testing uploading different size of the text file, you may change the text file in filepath to (smallFile.txt, medianFile.txt or largeFile.txt). As for the img, we only implement bmp type, you may just try it with the globe.bmp inside.
 ## What exactly does the program do
 ##### ServerSide
-1. Keep running and receive connections from clients.
+1. Keep running and receiving connections from clients.
 2. Once connected, handshake with it.
 3. If handshake seccessed, receiving the file from client.
 4. Decrypting the file and store it.
